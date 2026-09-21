@@ -14,6 +14,7 @@ import Test from "./Components/reactRouterDomCpm/test"
 import NestedRoute from "./Components/reactRouterDomCpm/NestedRoute"
 import Navbar from "./Components/reactRouterDomCpm/Navbar"
 import UseStateHook from "./Components/Hooks/UseStateHook"
+import ShowHide from "./Components/Hooks/UseState/ShowHide"
 
 function App() {
 
@@ -55,6 +56,7 @@ function App() {
           <Route path="counterclass" element={<CounterClass/>}/>
           </Route>
           <Route path="/usestatehook" element={<UseStateHook/>}/>
+          <Route path="/ShowHide" element={<ShowHide/>}/>
         </Routes>
       </BrowserRouter>
     </>
