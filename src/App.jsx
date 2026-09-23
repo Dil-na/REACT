@@ -13,8 +13,11 @@ import LINKcomponent from "./Components/reactRouterDomCpm/LINKcomponent"
 import Test from "./Components/reactRouterDomCpm/test"
 import NestedRoute from "./Components/reactRouterDomCpm/NestedRoute"
 import Navbar from "./Components/reactRouterDomCpm/Navbar"
-import UseStateHook from "./Components/Hooks/UseStateHook"
 import ShowHide from "./Components/Hooks/UseState/ShowHide"
+import UseEffectHook from "./Components/Hooks/useEffect/useEffectHook"
+import UseStateHook from "./Components/Hooks/UseState/UseStateHook"
+import UseEffectCount from "./Components/Hooks/useEffect/UseEffectCount"
+import UseEffectApi from "./Components/Hooks/useEffect/UseEffectApi"
 
 function App() {
 
@@ -46,7 +49,8 @@ function App() {
           <Route path="/useNavigate" element={<UseNavigateComp />} />  
           <Route path="/useParams/:id" element={<UseParamsComp />} />
           <Route path="/nested" element={<NestedRoute />}>
-            <Route path="home" element={<Home />} />
+          <Route path="home" element={<Home />} />
+          
           </Route>
 
           {/* Navbar */}
@@ -57,6 +61,9 @@ function App() {
           </Route>
           <Route path="/usestatehook" element={<UseStateHook/>}/>
           <Route path="/ShowHide" element={<ShowHide/>}/>
+          <Route path="/useEffect" element={<UseEffectHook/>}/>
+          <Route path="/useEffect" element={<UseEffectCount/>}/>
+          <Route path="/useEffect" element={<UseEffectApi/>}/>
         </Routes>
       </BrowserRouter>
     </>
