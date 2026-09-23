@@ -18,6 +18,7 @@ import UseEffectHook from "./Components/Hooks/useEffect/useEffectHook"
 import UseStateHook from "./Components/Hooks/UseState/UseStateHook"
 import UseEffectCount from "./Components/Hooks/useEffect/UseEffectCount"
 import UseEffectApi from "./Components/Hooks/useEffect/UseEffectApi"
+import Parent from "./Components/props/parent"
 
 function App() {
 
@@ -64,6 +65,7 @@ function App() {
           <Route path="/useEffect" element={<UseEffectHook/>}/>
           <Route path="/useEffect" element={<UseEffectCount/>}/>
           <Route path="/useEffect" element={<UseEffectApi/>}/>
+          <Route path="/props" element={<Parent/>}/>
         </Routes>
       </BrowserRouter>
     </>
