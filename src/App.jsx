@@ -20,6 +20,7 @@ import UseEffectCount from "./Components/Hooks/useEffect/UseEffectCount"
 import UseEffectApi from "./Components/Hooks/useEffect/UseEffectApi"
 import Parent from "./Components/props/parent"
 import ParentData from "./Components/props/PropsDrilling"
+import Form from "./Components/Form/Form"
 
 function App() {
 
@@ -68,6 +69,7 @@ function App() {
           <Route path="/useEffect" element={<UseEffectApi/>}/>
           <Route path="/props" element={<Parent/>}/>
           <Route path="/PropsDrilling" element={<ParentData/>}/>
+          <Route path="/Form" element={<Form/>}/>
         </Routes>
       </BrowserRouter>
     </>
