@@ -22,6 +22,7 @@ import Parent from "./Components/props/parent"
 import ParentData from "./Components/props/PropsDrilling"
 import Form from "./Components/Form/Form"
 import Crud from "./Components/Form/Crud"
+import UnControlledComp from "./Components/Hooks/useRef/UnControlledComp"
 
 
 
@@ -74,6 +75,7 @@ function App() {
           <Route path="/PropsDrilling" element={<ParentData/>}/>
           <Route path="/Form" element={<Form/>}/>
           <Route path="/Crud" element={<Crud/>}/>
+          <Route path="/uncontrolled" element={<UnControlledComp/>}/>
         </Routes>
       </BrowserRouter>
     </>
