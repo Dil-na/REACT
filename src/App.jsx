@@ -25,6 +25,7 @@ import Crud from "./Components/Form/Crud"
 import UnControlledComp from "./Components/Hooks/useRef/UnControlledComp"
 import WithoutMemoExample from "./Components/Hooks/useMemo/WithoutMemoExample"
 import MemoExample from "./Components/Hooks/useMemo/MemoExample"
+import CallBackExample from "./Components/Hooks/useMemo/callbackexample"
 
 
 
@@ -80,6 +81,7 @@ function App() {
           <Route path="/uncontrolled" element={<UnControlledComp/>}/>
           <Route path="/withoutmemo" element={<WithoutMemoExample/>}/>
           <Route path="/withmemo" element={<MemoExample/>}/>
+          <Route path="/callback" element={<CallBackExample/>}/>
         </Routes>
       </BrowserRouter>
     </>
