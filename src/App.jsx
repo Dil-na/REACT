@@ -23,6 +23,8 @@ import ParentData from "./Components/props/PropsDrilling"
 import Form from "./Components/Form/Form"
 import Crud from "./Components/Form/Crud"
 import UnControlledComp from "./Components/Hooks/useRef/UnControlledComp"
+import WithoutMemoExample from "./Components/Hooks/useMemo/WithoutMemoExample"
+import MemoExample from "./Components/Hooks/useMemo/MemoExample"
 
 
 
@@ -76,6 +78,8 @@ function App() {
           <Route path="/Form" element={<Form/>}/>
           <Route path="/Crud" element={<Crud/>}/>
           <Route path="/uncontrolled" element={<UnControlledComp/>}/>
+          <Route path="/withoutmemo" element={<WithoutMemoExample/>}/>
+          <Route path="/withmemo" element={<MemoExample/>}/>
         </Routes>
       </BrowserRouter>
     </>
