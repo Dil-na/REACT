@@ -26,6 +26,7 @@ import UnControlledComp from "./Components/Hooks/useRef/UnControlledComp"
 import WithoutMemoExample from "./Components/Hooks/useMemo/WithoutMemoExample"
 import MemoExample from "./Components/Hooks/useMemo/MemoExample"
 import CallBackExample from "./Components/Hooks/useMemo/callbackexample"
+import Dashboard from "./Components/reactRouterDomCpm/dashboard"
 
 
 
@@ -82,6 +83,7 @@ function App() {
           <Route path="/withoutmemo" element={<WithoutMemoExample/>}/>
           <Route path="/withmemo" element={<MemoExample/>}/>
           <Route path="/callback" element={<CallBackExample/>}/>
+          <Route path="/dashboard" element={<Dashboard/>}/>
         </Routes>
       </BrowserRouter>
     </>
