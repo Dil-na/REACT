@@ -27,6 +27,8 @@ import WithoutMemoExample from "./Components/Hooks/useMemo/WithoutMemoExample"
 import MemoExample from "./Components/Hooks/useMemo/MemoExample"
 import CallBackExample from "./Components/Hooks/useMemo/callbackexample"
 import Dashboard from "./Components/reactRouterDomCpm/dashboard"
+import UseEffectapi from "./Components/Axios/UseEffectApi"
+
 
 
 
@@ -84,6 +86,7 @@ function App() {
           <Route path="/withmemo" element={<MemoExample/>}/>
           <Route path="/callback" element={<CallBackExample/>}/>
           <Route path="/dashboard" element={<Dashboard/>}/>
+          <Route path="/axios" element={<UseEffectapi/>}/>
         </Routes>
       </BrowserRouter>
     </>
