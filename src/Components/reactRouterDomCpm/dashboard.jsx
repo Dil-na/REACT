@@ -17,7 +17,7 @@ const Dashboard = () => {
         className="sidebar"
         style={{
           width: "250px",
-          backgroundColor: "#2c3e50",
+          backgroundColor: "#ad68aa",
           color: "white",
           padding: "20px",
         }}
@@ -77,7 +77,7 @@ const Dashboard = () => {
             marginBottom: "25px",
           }}
         >
-          <h2 style={{ margin: "0", color: "#2c3e50" }}>
+          <h2 style={{ margin: "0", color: "#ad68aa" }}>
             Dashboard
           </h2>
 
@@ -194,7 +194,7 @@ const Dashboard = () => {
             overflowX: "auto",
           }}
         >
-          <h2 style={{ color: "#2c3e50", marginBottom: "20px" }}>
+          <h2 style={{ color: "#ad68aa", marginBottom: "20px" }}>
             Recent Activity
           </h2>
 
@@ -206,7 +206,7 @@ const Dashboard = () => {
             }}
           >
             <thead>
-              <tr style={{ backgroundColor: "#2c3e50", color: "white" }}>
+              <tr style={{ backgroundColor: "#ad68aa", color: "white" }}>
                 <th style={{ padding: "15px" }}>Name</th>
                 <th style={{ padding: "15px" }}>Course</th>
                 <th style={{ padding: "15px" }}>Status</th>
