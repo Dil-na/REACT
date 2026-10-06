@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { increment } from './CounterSlice';
+import { increment } from './counterSlice';
 
 const CounterRtk = () => {
     console.log('CounterRtk rendered');
@@ -16,4 +16,4 @@ const CounterRtk = () => {
     );
 };
 
-export default CounterRtk ();
+export default CounterRtk
